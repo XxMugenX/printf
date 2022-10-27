@@ -161,7 +161,7 @@ converter_t converters[] = {
 
 for (i = 0; converters[i].func; i++)
 {
-if (converters[i].specifier == *specifier
+if (converters[i].specifier == *specifier)
 {
 return (converters[i].func);
 }
